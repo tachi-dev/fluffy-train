@@ -40,4 +40,9 @@
         android:name="com.example.memoactivity.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_create"
+        android:name="com.example.memoactivity.nav_create"
+        android:label="fragment_nav_create"
+        tools:layout="@layout/fragment_nav_create" />
 </navigation>
